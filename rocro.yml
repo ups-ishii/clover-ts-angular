@@ -3,15 +3,4 @@ inspecode:
     runtime:
       nodejs: 11
     # new
-    incremental: false
-  experimental:
-    runtime:
-      nodejs: 13
-    # backward-compatibility
-    incremental: false
-  tslint:
-    # new
     incremental: true
-    experimental:
-      # deprecated
-      incremental: true 
