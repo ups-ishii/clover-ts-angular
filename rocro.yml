@@ -1,17 +1,10 @@
 inspecode:
-  global:
-    runtime:
-      nodejs: 11
-    # new
-    incremental: false
   experimental:
     runtime:
-      nodejs: 13
+      nodejs: 12
     # backward-compatibility
-    incremental: false
-  tslint:
-    # new
     incremental: true
+  tslint:
     experimental:
       # deprecated
-      incremental: true 
+      incremental: false 
