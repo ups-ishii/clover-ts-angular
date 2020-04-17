@@ -1,0 +1,6 @@
+inspecode:
+  experimental:
+    incremental: false
+  tslint:
+    experimental:
+      incremental: true 
