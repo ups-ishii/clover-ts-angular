@@ -1,6 +1,6 @@
 inspecode:
   global:
-    incremental: false
+    incremental: true
   tools:
     tslint:
-      incremental: true
+      incremental: false
