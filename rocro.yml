@@ -3,4 +3,7 @@ inspecode:
     runtime:
       nodejs: 11
     # new
+    incremental: false
+  experimental:
+    # backward-compatibility
     incremental: true
