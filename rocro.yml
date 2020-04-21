@@ -3,10 +3,10 @@ inspecode:
     runtime:
       nodejs: 11
     # new
-    incremental: false
+    incremental: true
   tslint:
     # new
-    incremental: true
+    incremental: false
     experimental:
-      # deprecated
+      # deprecated no-effect
       incremental: true 
